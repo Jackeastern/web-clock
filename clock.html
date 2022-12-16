@@ -18,14 +18,9 @@
         <h1>Name should be here.</h1>
     </div>
     <div class="container">
-    <form >
-  <div class="form-group">
-    <label for="username">Name</label>
-    <input type="text" class="form-control" id="user_name" placeholder="John Doe">
-  </div>
-  <button type="submit" class="btn btn-primary">Go to clock</button>
-</form>
-</div>
+    <h3 class="container my_clock_style" id="my_web_clock"></h3>
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -37,6 +32,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/update_clock.js"></script>
+        <script>
+            setInterval(clockUpdater("my_web_clock"), 1000);
+        </script>
 </body>
 
 </html>

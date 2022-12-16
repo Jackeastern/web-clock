@@ -6,3 +6,25 @@
     background-color: black;
     font-family: sans-serif;
 }
+
+.my_clock_style{
+border-radius: 12px;
+border: 2px solid;
+border-color: grey;
+width: 20%;
+text-align: center;
+ color: rgb(202, 83, 83);
+ background-color: black;
+ transition: 0.4s;
+}
+.my_clock_style:hover{
+border-radius: 12px;
+border: 2px solid;
+border-color: grey;
+width: 20%;
+text-align: center;
+ color: rgb(255, 255, 255);
+ background-color: black;
+ transition: 0.4s;
+ box-shadow: 5px 8px #000000;;
+}
